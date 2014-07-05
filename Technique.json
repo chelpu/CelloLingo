@@ -1,0 +1,88 @@
+
+[{
+	"question" : "What principle should you NOT follow with regards to sitting position?", 
+	"answers" :
+		["Avoid chairs that are too low", 
+		 "Respect the curve of your spine", 
+		 "Feet should be tucked under your chair",
+		 "Feet should be flat on the floor"
+		],
+	"correct" : 2,
+	"level" : 1
+},
+{
+	"question" : "Which hand should hold the neck of the cello?", 
+	"answers" :
+		["Left",
+		 "Right"
+		],
+	"correct" : 0,
+	"level" : 2
+},
+{
+	"question" : "Which finger should the thumb be placed behind on the neck?", 
+	"answers" :
+		["First/Index",
+		 "Second/Middle",
+		 "Third/Ring",
+		 "Fourth/Pinky"
+		],
+	"correct" : 1,
+	"level" : 1
+},
+{
+	"question" : "What can be used to secure the endpin of a cello?", 
+	"answers" :
+		["A block of wood",
+		 "A rock stop",
+		 "Rubber flooring"
+		 
+		],
+	"correct" : 1,
+	"level" : 1
+},
+{
+	"question" : "How should your thumb be placed?", 
+	"answers" :
+		["Tightly against the neck of the cello",
+		 "Not touching the neck of the cello",
+		 "Relaxed against the neck of the cello"
+		 
+		],
+	"correct" : 2,
+	"level" : 2
+},
+{
+	"question" : "What technique is used to produce notes not reachable in first position?", 
+	"answers" :
+		["Shifting",
+		 "Harmonization",
+		 "Chords",
+		 "Tension"		 
+		],
+	"correct" : 0,
+	"level" : 2
+},
+{
+	"question" : "What is a technique that advanced string players use for enhanced tone?", 
+	"answers" :
+		["Trilling",
+		 "Esspresivo",
+		 "Tremelo",
+		 "Vibrato"
+		],
+	"correct" : 3,
+	"level" : 3
+},
+{
+	"question" : "What is a wolf tone/note?", 
+	"answers" :
+		["The sound produced when vibrato is used",
+		 "A note that sounds like a scream",
+		 "A note that causes an unpleasant beating frequency",
+		 "A note that only the cello can produce"
+		],
+	"correct" : 2,
+	"level" : 4
+}]
+

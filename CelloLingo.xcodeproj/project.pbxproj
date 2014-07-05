@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E0D9BF518F094AA00141C89 /* NOTICE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BE318F094AA00141C89 /* NOTICE.txt */; };
+		5E0D9BF618F094AA00141C89 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BE418F094AA00141C89 /* Roboto-Black.ttf */; };
+		5E0D9BF718F094AA00141C89 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BE518F094AA00141C89 /* Roboto-BlackItalic.ttf */; };
+		5E0D9BF818F094AA00141C89 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BE618F094AA00141C89 /* Roboto-Bold.ttf */; };
+		5E0D9BF918F094AA00141C89 /* Roboto-BoldCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BE718F094AA00141C89 /* Roboto-BoldCondensed.ttf */; };
+		5E0D9BFA18F094AA00141C89 /* Roboto-BoldCondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BE818F094AA00141C89 /* Roboto-BoldCondensedItalic.ttf */; };
+		5E0D9BFB18F094AA00141C89 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BE918F094AA00141C89 /* Roboto-BoldItalic.ttf */; };
+		5E0D9BFC18F094AA00141C89 /* Roboto-Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BEA18F094AA00141C89 /* Roboto-Condensed.ttf */; };
+		5E0D9BFD18F094AA00141C89 /* Roboto-CondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BEB18F094AA00141C89 /* Roboto-CondensedItalic.ttf */; };
+		5E0D9BFE18F094AA00141C89 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BEC18F094AA00141C89 /* Roboto-Italic.ttf */; };
+		5E0D9BFF18F094AA00141C89 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BED18F094AA00141C89 /* Roboto-Light.ttf */; };
+		5E0D9C0018F094AA00141C89 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BEE18F094AA00141C89 /* Roboto-LightItalic.ttf */; };
+		5E0D9C0118F094AA00141C89 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BEF18F094AA00141C89 /* Roboto-Medium.ttf */; };
+		5E0D9C0218F094AA00141C89 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BF018F094AA00141C89 /* Roboto-MediumItalic.ttf */; };
+		5E0D9C0318F094AA00141C89 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BF118F094AA00141C89 /* Roboto-Regular.ttf */; };
+		5E0D9C0418F094AA00141C89 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BF218F094AA00141C89 /* Roboto-Thin.ttf */; };
+		5E0D9C0518F094AA00141C89 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BF318F094AA00141C89 /* Roboto-ThinItalic.ttf */; };
+		5E0D9C0618F094AA00141C89 /* Roboto_Specimen_Book.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BF418F094AA00141C89 /* Roboto_Specimen_Book.pdf */; };
+		5E1A0BA418EE344A0092D84D /* TrackCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E1A0BA318EE344A0092D84D /* TrackCellView.xib */; };
+		5E5428F418C68B5600B67D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5428F318C68B5600B67D7A /* Foundation.framework */; };
+		5E5428F618C68B5600B67D7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5428F518C68B5600B67D7A /* CoreGraphics.framework */; };
+		5E5428F818C68B5600B67D7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5428F718C68B5600B67D7A /* UIKit.framework */; };
+		5E5428FE18C68B5600B67D7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E5428FC18C68B5600B67D7A /* InfoPlist.strings */; };
+		5E54290018C68B5600B67D7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5428FF18C68B5600B67D7A /* main.m */; };
+		5E54290418C68B5600B67D7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54290318C68B5600B67D7A /* AppDelegate.m */; };
+		5E54290718C68B5600B67D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E54290518C68B5600B67D7A /* Main.storyboard */; };
+		5E54290A18C68B5600B67D7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54290918C68B5600B67D7A /* ViewController.m */; };
+		5E54291318C68B5600B67D7A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E54291218C68B5600B67D7A /* XCTest.framework */; };
+		5E54291418C68B5600B67D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5428F318C68B5600B67D7A /* Foundation.framework */; };
+		5E54291518C68B5600B67D7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5428F718C68B5600B67D7A /* UIKit.framework */; };
+		5E54291D18C68B5600B67D7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E54291B18C68B5600B67D7A /* InfoPlist.strings */; };
+		5E54291F18C68B5600B67D7A /* CelloLingoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54291E18C68B5600B67D7A /* CelloLingoTests.m */; };
+		5E54292B18C68CFC00B67D7A /* QuizQuestion.h in Resources */ = {isa = PBXBuildFile; fileRef = 5E54292818C68CFC00B67D7A /* QuizQuestion.h */; };
+		5E54292C18C68CFC00B67D7A /* QuizQuestion.m in Resources */ = {isa = PBXBuildFile; fileRef = 5E54292918C68CFC00B67D7A /* QuizQuestion.m */; };
+		5E54293018C68D1500B67D7A /* TechniqueQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54292E18C68D1500B67D7A /* TechniqueQuizViewController.m */; };
+		5E54293118C68D1500B67D7A /* TechniqueQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E54292F18C68D1500B67D7A /* TechniqueQuizViewController.xib */; };
+		5E54293318C68F2000B67D7A /* QuizQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54292918C68CFC00B67D7A /* QuizQuestion.m */; };
+		5E54293718C6902900B67D7A /* PlayNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54293518C6902900B67D7A /* PlayNotesViewController.m */; };
+		5E54293818C6902900B67D7A /* PlayNotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E54293618C6902900B67D7A /* PlayNotesViewController.xib */; };
+		5E54293C18C6903F00B67D7A /* NoteKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54293A18C6903F00B67D7A /* NoteKeyboard.m */; };
+		5E54293D18C6903F00B67D7A /* NoteKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E54293B18C6903F00B67D7A /* NoteKeyboard.xib */; };
+		5E54294F18C6908F00B67D7A /* CHANGELOG.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5E54294318C6908F00B67D7A /* CHANGELOG.markdown */; };
+		5E54295018C6908F00B67D7A /* kiss_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E54294418C6908F00B67D7A /* kiss_fft.c */; };
+		5E54295118C6908F00B67D7A /* kiss_fftr.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E54294618C6908F00B67D7A /* kiss_fftr.c */; };
+		5E54295218C6908F00B67D7A /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5E54294818C6908F00B67D7A /* README.markdown */; };
+		5E54295318C6908F00B67D7A /* SCListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54294A18C6908F00B67D7A /* SCListener.m */; };
+		5E54295418C6908F00B67D7A /* UIView+FindFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54294C18C6908F00B67D7A /* UIView+FindFirstResponder.m */; };
+		5E54296018C690FD00B67D7A /* OpeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54295918C690FD00B67D7A /* OpeningViewController.m */; };
+		5E54296118C690FD00B67D7A /* OpeningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E54295A18C690FD00B67D7A /* OpeningViewController.xib */; };
+		5E54296218C690FD00B67D7A /* StaffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54295C18C690FD00B67D7A /* StaffViewController.m */; };
+		5E54296318C690FD00B67D7A /* StaffViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E54295D18C690FD00B67D7A /* StaffViewController.xib */; };
+		5E54296818C6913C00B67D7A /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54296518C6913C00B67D7A /* Note.m */; };
+		5E54297718C691F600B67D7A /* bassStaff.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5E54297618C691F600B67D7A /* bassStaff.gif */; };
+		5E54297D18C6A53000B67D7A /* SoundCloudSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54297B18C6A53000B67D7A /* SoundCloudSearchViewController.m */; };
+		5E54297E18C6A53000B67D7A /* SoundCloudSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E54297C18C6A53000B67D7A /* SoundCloudSearchViewController.xib */; };
+		5E54298118C6B72900B67D7A /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54298018C6B72900B67D7A /* Track.m */; };
+		5E54298418C6B8CF00B67D7A /* TrackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54298318C6B8CF00B67D7A /* TrackCell.m */; };
+		5E69374F1904B46D0051206D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E69374E1904B46D0051206D /* background.png */; };
+		5E77BAB619023A1A0023B7BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E77BAB519023A1A0023B7BC /* Images.xcassets */; };
+		5E77BAB919023A870023B7BC /* celloLingoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E77BAB719023A870023B7BC /* celloLingoIcon.png */; };
+		5E77BABC19023F8C0023B7BC /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E77BABB19023F8C0023B7BC /* launch.png */; };
+		5ED0167818FF5EB50089C31B /* FontLog in Resources */ = {isa = PBXBuildFile; fileRef = 5ED0167218FF5EB50089C31B /* FontLog */; };
+		5ED0167918FF5EB50089C31B /* odstemplik.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5ED0167318FF5EB50089C31B /* odstemplik.otf */; };
+		5ED0167A18FF5EB50089C31B /* odstemplikBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5ED0167418FF5EB50089C31B /* odstemplikBold.otf */; };
+		5ED0167B18FF5EB50089C31B /* odstemplikSpec.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5ED0167518FF5EB50089C31B /* odstemplikSpec.pdf */; };
+		5ED0167C18FF5EB50089C31B /* OFL_FAQ.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5ED0167618FF5EB50089C31B /* OFL_FAQ.txt */; };
+		5ED0167D18FF5EB50089C31B /* OFL_License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5ED0167718FF5EB50089C31B /* OFL_License.txt */; };
+		F9813F3D4682458C8A7BA993 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E67BC92A28407EB51144D5 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E54291618C68B5600B67D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E5428E818C68B5600B67D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E5428EF18C68B5600B67D7A;
+			remoteInfo = CelloLingo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E0D9BE318F094AA00141C89 /* NOTICE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NOTICE.txt; sourceTree = "<group>"; };
+		5E0D9BE418F094AA00141C89 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		5E0D9BE518F094AA00141C89 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		5E0D9BE618F094AA00141C89 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		5E0D9BE718F094AA00141C89 /* Roboto-BoldCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldCondensed.ttf"; sourceTree = "<group>"; };
+		5E0D9BE818F094AA00141C89 /* Roboto-BoldCondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldCondensedItalic.ttf"; sourceTree = "<group>"; };
+		5E0D9BE918F094AA00141C89 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5E0D9BEA18F094AA00141C89 /* Roboto-Condensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Condensed.ttf"; sourceTree = "<group>"; };
+		5E0D9BEB18F094AA00141C89 /* Roboto-CondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-CondensedItalic.ttf"; sourceTree = "<group>"; };
+		5E0D9BEC18F094AA00141C89 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		5E0D9BED18F094AA00141C89 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		5E0D9BEE18F094AA00141C89 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		5E0D9BEF18F094AA00141C89 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		5E0D9BF018F094AA00141C89 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		5E0D9BF118F094AA00141C89 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		5E0D9BF218F094AA00141C89 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		5E0D9BF318F094AA00141C89 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		5E0D9BF418F094AA00141C89 /* Roboto_Specimen_Book.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Roboto_Specimen_Book.pdf; sourceTree = "<group>"; };
+		5E1A0BA318EE344A0092D84D /* TrackCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackCellView.xib; sourceTree = "<group>"; };
+		5E5428F018C68B5600B67D7A /* CelloLingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CelloLingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5428F318C68B5600B67D7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E5428F518C68B5600B67D7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E5428F718C68B5600B67D7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E5428FB18C68B5600B67D7A /* CelloLingo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CelloLingo-Info.plist"; sourceTree = "<group>"; };
+		5E5428FD18C68B5600B67D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E5428FF18C68B5600B67D7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E54290118C68B5600B67D7A /* CelloLingo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CelloLingo-Prefix.pch"; sourceTree = "<group>"; };
+		5E54290218C68B5600B67D7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E54290318C68B5600B67D7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E54290618C68B5600B67D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E54290818C68B5600B67D7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E54290918C68B5600B67D7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E54291118C68B5600B67D7A /* CelloLingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CelloLingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E54291218C68B5600B67D7A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5E54291A18C68B5600B67D7A /* CelloLingoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CelloLingoTests-Info.plist"; sourceTree = "<group>"; };
+		5E54291C18C68B5600B67D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E54291E18C68B5600B67D7A /* CelloLingoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CelloLingoTests.m; sourceTree = "<group>"; };
+		5E54292818C68CFC00B67D7A /* QuizQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizQuestion.h; sourceTree = "<group>"; };
+		5E54292918C68CFC00B67D7A /* QuizQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizQuestion.m; sourceTree = "<group>"; };
+		5E54292D18C68D1500B67D7A /* TechniqueQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TechniqueQuizViewController.h; sourceTree = SOURCE_ROOT; };
+		5E54292E18C68D1500B67D7A /* TechniqueQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TechniqueQuizViewController.m; sourceTree = SOURCE_ROOT; };
+		5E54292F18C68D1500B67D7A /* TechniqueQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TechniqueQuizViewController.xib; sourceTree = SOURCE_ROOT; };
+		5E54293418C6902900B67D7A /* PlayNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayNotesViewController.h; sourceTree = SOURCE_ROOT; };
+		5E54293518C6902900B67D7A /* PlayNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayNotesViewController.m; sourceTree = SOURCE_ROOT; };
+		5E54293618C6902900B67D7A /* PlayNotesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayNotesViewController.xib; sourceTree = SOURCE_ROOT; };
+		5E54293918C6903F00B67D7A /* NoteKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteKeyboard.h; sourceTree = SOURCE_ROOT; };
+		5E54293A18C6903F00B67D7A /* NoteKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteKeyboard.m; sourceTree = SOURCE_ROOT; };
+		5E54293B18C6903F00B67D7A /* NoteKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoteKeyboard.xib; sourceTree = SOURCE_ROOT; };
+		5E54294218C6908F00B67D7A /* _kiss_fft_guts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _kiss_fft_guts.h; sourceTree = "<group>"; };
+		5E54294318C6908F00B67D7A /* CHANGELOG.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.markdown; sourceTree = "<group>"; };
+		5E54294418C6908F00B67D7A /* kiss_fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kiss_fft.c; sourceTree = "<group>"; };
+		5E54294518C6908F00B67D7A /* kiss_fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kiss_fft.h; sourceTree = "<group>"; };
+		5E54294618C6908F00B67D7A /* kiss_fftr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kiss_fftr.c; sourceTree = "<group>"; };
+		5E54294718C6908F00B67D7A /* kiss_fftr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kiss_fftr.h; sourceTree = "<group>"; };
+		5E54294818C6908F00B67D7A /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		5E54294918C6908F00B67D7A /* SCListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCListener.h; sourceTree = "<group>"; };
+		5E54294A18C6908F00B67D7A /* SCListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCListener.m; sourceTree = "<group>"; };
+		5E54294B18C6908F00B67D7A /* UIView+FindFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FindFirstResponder.h"; sourceTree = SOURCE_ROOT; };
+		5E54294C18C6908F00B67D7A /* UIView+FindFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FindFirstResponder.m"; sourceTree = SOURCE_ROOT; };
+		5E54295818C690FD00B67D7A /* OpeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningViewController.h; sourceTree = SOURCE_ROOT; };
+		5E54295918C690FD00B67D7A /* OpeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningViewController.m; sourceTree = SOURCE_ROOT; };
+		5E54295A18C690FD00B67D7A /* OpeningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpeningViewController.xib; sourceTree = SOURCE_ROOT; };
+		5E54295B18C690FD00B67D7A /* StaffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaffViewController.h; sourceTree = SOURCE_ROOT; };
+		5E54295C18C690FD00B67D7A /* StaffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaffViewController.m; sourceTree = SOURCE_ROOT; };
+		5E54295D18C690FD00B67D7A /* StaffViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StaffViewController.xib; sourceTree = SOURCE_ROOT; };
+		5E54296418C6913C00B67D7A /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		5E54296518C6913C00B67D7A /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		5E54297618C691F600B67D7A /* bassStaff.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bassStaff.gif; sourceTree = "<group>"; };
+		5E54297A18C6A53000B67D7A /* SoundCloudSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundCloudSearchViewController.h; sourceTree = "<group>"; };
+		5E54297B18C6A53000B67D7A /* SoundCloudSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundCloudSearchViewController.m; sourceTree = "<group>"; };
+		5E54297C18C6A53000B67D7A /* SoundCloudSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoundCloudSearchViewController.xib; sourceTree = "<group>"; };
+		5E54297F18C6B72900B67D7A /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = SOURCE_ROOT; };
+		5E54298018C6B72900B67D7A /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = SOURCE_ROOT; };
+		5E54298218C6B8CF00B67D7A /* TrackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackCell.h; sourceTree = SOURCE_ROOT; };
+		5E54298318C6B8CF00B67D7A /* TrackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackCell.m; sourceTree = SOURCE_ROOT; };
+		5E69374E1904B46D0051206D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		5E77BAB519023A1A0023B7BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E77BAB719023A870023B7BC /* celloLingoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celloLingoIcon.png; sourceTree = "<group>"; };
+		5E77BABB19023F8C0023B7BC /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		5ED0167218FF5EB50089C31B /* FontLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FontLog; sourceTree = "<group>"; };
+		5ED0167318FF5EB50089C31B /* odstemplik.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = odstemplik.otf; sourceTree = "<group>"; };
+		5ED0167418FF5EB50089C31B /* odstemplikBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = odstemplikBold.otf; sourceTree = "<group>"; };
+		5ED0167518FF5EB50089C31B /* odstemplikSpec.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = odstemplikSpec.pdf; sourceTree = "<group>"; };
+		5ED0167618FF5EB50089C31B /* OFL_FAQ.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL_FAQ.txt; sourceTree = "<group>"; };
+		5ED0167718FF5EB50089C31B /* OFL_License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL_License.txt; sourceTree = "<group>"; };
+		7B4160DA73B54E9FB0528C2E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F7E67BC92A28407EB51144D5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E5428ED18C68B5600B67D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5428F618C68B5600B67D7A /* CoreGraphics.framework in Frameworks */,
+				5E5428F818C68B5600B67D7A /* UIKit.framework in Frameworks */,
+				5E5428F418C68B5600B67D7A /* Foundation.framework in Frameworks */,
+				F9813F3D4682458C8A7BA993 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E54290E18C68B5600B67D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E54291318C68B5600B67D7A /* XCTest.framework in Frameworks */,
+				5E54291518C68B5600B67D7A /* UIKit.framework in Frameworks */,
+				5E54291418C68B5600B67D7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E0D9BE218F094AA00141C89 /* roboto */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D9BE318F094AA00141C89 /* NOTICE.txt */,
+				5E0D9BE418F094AA00141C89 /* Roboto-Black.ttf */,
+				5E0D9BE518F094AA00141C89 /* Roboto-BlackItalic.ttf */,
+				5E0D9BE618F094AA00141C89 /* Roboto-Bold.ttf */,
+				5E0D9BE718F094AA00141C89 /* Roboto-BoldCondensed.ttf */,
+				5E0D9BE818F094AA00141C89 /* Roboto-BoldCondensedItalic.ttf */,
+				5E0D9BE918F094AA00141C89 /* Roboto-BoldItalic.ttf */,
+				5E0D9BEA18F094AA00141C89 /* Roboto-Condensed.ttf */,
+				5E0D9BEB18F094AA00141C89 /* Roboto-CondensedItalic.ttf */,
+				5E0D9BEC18F094AA00141C89 /* Roboto-Italic.ttf */,
+				5E0D9BED18F094AA00141C89 /* Roboto-Light.ttf */,
+				5E0D9BEE18F094AA00141C89 /* Roboto-LightItalic.ttf */,
+				5E0D9BEF18F094AA00141C89 /* Roboto-Medium.ttf */,
+				5E0D9BF018F094AA00141C89 /* Roboto-MediumItalic.ttf */,
+				5E0D9BF118F094AA00141C89 /* Roboto-Regular.ttf */,
+				5E0D9BF218F094AA00141C89 /* Roboto-Thin.ttf */,
+				5E0D9BF318F094AA00141C89 /* Roboto-ThinItalic.ttf */,
+				5E0D9BF418F094AA00141C89 /* Roboto_Specimen_Book.pdf */,
+			);
+			path = roboto;
+			sourceTree = "<group>";
+		};
+		5E5428E718C68B5600B67D7A = {
+			isa = PBXGroup;
+			children = (
+				5E77BAB519023A1A0023B7BC /* Images.xcassets */,
+				5ED0167118FF5EB50089C31B /* odstemplik */,
+				5E0D9BE218F094AA00141C89 /* roboto */,
+				5E54296B18C6919400B67D7A /* images */,
+				5E5428F918C68B5600B67D7A /* CelloLingo */,
+				5E54291818C68B5600B67D7A /* CelloLingoTests */,
+				5E5428F218C68B5600B67D7A /* Frameworks */,
+				5E5428F118C68B5600B67D7A /* Products */,
+				7B4160DA73B54E9FB0528C2E /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		5E5428F118C68B5600B67D7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E5428F018C68B5600B67D7A /* CelloLingo.app */,
+				5E54291118C68B5600B67D7A /* CelloLingoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E5428F218C68B5600B67D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E5428F318C68B5600B67D7A /* Foundation.framework */,
+				5E5428F518C68B5600B67D7A /* CoreGraphics.framework */,
+				5E5428F718C68B5600B67D7A /* UIKit.framework */,
+				5E54291218C68B5600B67D7A /* XCTest.framework */,
+				F7E67BC92A28407EB51144D5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E5428F918C68B5600B67D7A /* CelloLingo */ = {
+			isa = PBXGroup;
+			children = (
+				5E54294118C6908F00B67D7A /* Listener */,
+				5E54293218C68D2100B67D7A /* ViewControllers */,
+				5E54292A18C68CFC00B67D7A /* Classes */,
+				5E54290218C68B5600B67D7A /* AppDelegate.h */,
+				5E54290318C68B5600B67D7A /* AppDelegate.m */,
+				5E54290518C68B5600B67D7A /* Main.storyboard */,
+				5E54290818C68B5600B67D7A /* ViewController.h */,
+				5E54290918C68B5600B67D7A /* ViewController.m */,
+				5E5428FA18C68B5600B67D7A /* Supporting Files */,
+			);
+			path = CelloLingo;
+			sourceTree = "<group>";
+		};
+		5E5428FA18C68B5600B67D7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E5428FB18C68B5600B67D7A /* CelloLingo-Info.plist */,
+				5E5428FC18C68B5600B67D7A /* InfoPlist.strings */,
+				5E5428FF18C68B5600B67D7A /* main.m */,
+				5E54290118C68B5600B67D7A /* CelloLingo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E54291818C68B5600B67D7A /* CelloLingoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E54291E18C68B5600B67D7A /* CelloLingoTests.m */,
+				5E54291918C68B5600B67D7A /* Supporting Files */,
+			);
+			path = CelloLingoTests;
+			sourceTree = "<group>";
+		};
+		5E54291918C68B5600B67D7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E54291A18C68B5600B67D7A /* CelloLingoTests-Info.plist */,
+				5E54291B18C68B5600B67D7A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E54292A18C68CFC00B67D7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5E54298218C6B8CF00B67D7A /* TrackCell.h */,
+				5E54298318C6B8CF00B67D7A /* TrackCell.m */,
+				5E1A0BA318EE344A0092D84D /* TrackCellView.xib */,
+				5E54297F18C6B72900B67D7A /* Track.h */,
+				5E54298018C6B72900B67D7A /* Track.m */,
+				5E54296418C6913C00B67D7A /* Note.h */,
+				5E54296518C6913C00B67D7A /* Note.m */,
+				5E54292818C68CFC00B67D7A /* QuizQuestion.h */,
+				5E54292918C68CFC00B67D7A /* QuizQuestion.m */,
+				5E54294B18C6908F00B67D7A /* UIView+FindFirstResponder.h */,
+				5E54294C18C6908F00B67D7A /* UIView+FindFirstResponder.m */,
+				5E54293918C6903F00B67D7A /* NoteKeyboard.h */,
+				5E54293A18C6903F00B67D7A /* NoteKeyboard.m */,
+				5E54293B18C6903F00B67D7A /* NoteKeyboard.xib */,
+			);
+			name = Classes;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5E54293218C68D2100B67D7A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E54295818C690FD00B67D7A /* OpeningViewController.h */,
+				5E54295918C690FD00B67D7A /* OpeningViewController.m */,
+				5E54295A18C690FD00B67D7A /* OpeningViewController.xib */,
+				5E54295B18C690FD00B67D7A /* StaffViewController.h */,
+				5E54295C18C690FD00B67D7A /* StaffViewController.m */,
+				5E54295D18C690FD00B67D7A /* StaffViewController.xib */,
+				5E54293418C6902900B67D7A /* PlayNotesViewController.h */,
+				5E54293518C6902900B67D7A /* PlayNotesViewController.m */,
+				5E54293618C6902900B67D7A /* PlayNotesViewController.xib */,
+				5E54292D18C68D1500B67D7A /* TechniqueQuizViewController.h */,
+				5E54292E18C68D1500B67D7A /* TechniqueQuizViewController.m */,
+				5E54292F18C68D1500B67D7A /* TechniqueQuizViewController.xib */,
+				5E54297A18C6A53000B67D7A /* SoundCloudSearchViewController.h */,
+				5E54297B18C6A53000B67D7A /* SoundCloudSearchViewController.m */,
+				5E54297C18C6A53000B67D7A /* SoundCloudSearchViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5E54294118C6908F00B67D7A /* Listener */ = {
+			isa = PBXGroup;
+			children = (
+				5E54294218C6908F00B67D7A /* _kiss_fft_guts.h */,
+				5E54294318C6908F00B67D7A /* CHANGELOG.markdown */,
+				5E54294418C6908F00B67D7A /* kiss_fft.c */,
+				5E54294518C6908F00B67D7A /* kiss_fft.h */,
+				5E54294618C6908F00B67D7A /* kiss_fftr.c */,
+				5E54294718C6908F00B67D7A /* kiss_fftr.h */,
+				5E54294818C6908F00B67D7A /* README.markdown */,
+				5E54294918C6908F00B67D7A /* SCListener.h */,
+				5E54294A18C6908F00B67D7A /* SCListener.m */,
+			);
+			name = Listener;
+			path = "sc_listener-master";
+			sourceTree = SOURCE_ROOT;
+		};
+		5E54296B18C6919400B67D7A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5E69374E1904B46D0051206D /* background.png */,
+				5E77BABB19023F8C0023B7BC /* launch.png */,
+				5E77BAB719023A870023B7BC /* celloLingoIcon.png */,
+				5E54297618C691F600B67D7A /* bassStaff.gif */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		5ED0167118FF5EB50089C31B /* odstemplik */ = {
+			isa = PBXGroup;
+			children = (
+				5ED0167218FF5EB50089C31B /* FontLog */,
+				5ED0167318FF5EB50089C31B /* odstemplik.otf */,
+				5ED0167418FF5EB50089C31B /* odstemplikBold.otf */,
+				5ED0167518FF5EB50089C31B /* odstemplikSpec.pdf */,
+				5ED0167618FF5EB50089C31B /* OFL_FAQ.txt */,
+				5ED0167718FF5EB50089C31B /* OFL_License.txt */,
+			);
+			name = odstemplik;
+			path = CelloLingo/odstemplik;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E5428EF18C68B5600B67D7A /* CelloLingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E54292218C68B5600B67D7A /* Build configuration list for PBXNativeTarget "CelloLingo" */;
+			buildPhases = (
+				C1E0F30F79104008A3C06100 /* Check Pods Manifest.lock */,
+				5E5428EC18C68B5600B67D7A /* Sources */,
+				5E5428ED18C68B5600B67D7A /* Frameworks */,
+				5E5428EE18C68B5600B67D7A /* Resources */,
+				8A75BC94304746D5B7B0BBDA /* Copy Pods Resources */,
+				5EB8701C18FE2B0100441093 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CelloLingo;
+			productName = CelloLingo;
+			productReference = 5E5428F018C68B5600B67D7A /* CelloLingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E54291018C68B5600B67D7A /* CelloLingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E54292518C68B5600B67D7A /* Build configuration list for PBXNativeTarget "CelloLingoTests" */;
+			buildPhases = (
+				5E54290D18C68B5600B67D7A /* Sources */,
+				5E54290E18C68B5600B67D7A /* Frameworks */,
+				5E54290F18C68B5600B67D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E54291718C68B5600B67D7A /* PBXTargetDependency */,
+			);
+			name = CelloLingoTests;
+			productName = CelloLingoTests;
+			productReference = 5E54291118C68B5600B67D7A /* CelloLingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E5428E818C68B5600B67D7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Chelsea Pugh";
+				TargetAttributes = {
+					5E54291018C68B5600B67D7A = {
+						TestTargetID = 5E5428EF18C68B5600B67D7A;
+					};
+				};
+			};
+			buildConfigurationList = 5E5428EB18C68B5600B67D7A /* Build configuration list for PBXProject "CelloLingo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E5428E718C68B5600B67D7A;
+			productRefGroup = 5E5428F118C68B5600B67D7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E5428EF18C68B5600B67D7A /* CelloLingo */,
+				5E54291018C68B5600B67D7A /* CelloLingoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E5428EE18C68B5600B67D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0D9C0118F094AA00141C89 /* Roboto-Medium.ttf in Resources */,
+				5ED0167918FF5EB50089C31B /* odstemplik.otf in Resources */,
+				5E0D9BFB18F094AA00141C89 /* Roboto-BoldItalic.ttf in Resources */,
+				5E0D9BFE18F094AA00141C89 /* Roboto-Italic.ttf in Resources */,
+				5E54295218C6908F00B67D7A /* README.markdown in Resources */,
+				5E54296318C690FD00B67D7A /* StaffViewController.xib in Resources */,
+				5E54297E18C6A53000B67D7A /* SoundCloudSearchViewController.xib in Resources */,
+				5ED0167818FF5EB50089C31B /* FontLog in Resources */,
+				5E77BAB619023A1A0023B7BC /* Images.xcassets in Resources */,
+				5E54297718C691F600B67D7A /* bassStaff.gif in Resources */,
+				5E0D9BFA18F094AA00141C89 /* Roboto-BoldCondensedItalic.ttf in Resources */,
+				5E54293D18C6903F00B67D7A /* NoteKeyboard.xib in Resources */,
+				5E54293818C6902900B67D7A /* PlayNotesViewController.xib in Resources */,
+				5E0D9BFF18F094AA00141C89 /* Roboto-Light.ttf in Resources */,
+				5E0D9BF718F094AA00141C89 /* Roboto-BlackItalic.ttf in Resources */,
+				5E0D9BF618F094AA00141C89 /* Roboto-Black.ttf in Resources */,
+				5E77BABC19023F8C0023B7BC /* launch.png in Resources */,
+				5ED0167B18FF5EB50089C31B /* odstemplikSpec.pdf in Resources */,
+				5E0D9BF918F094AA00141C89 /* Roboto-BoldCondensed.ttf in Resources */,
+				5E0D9BFD18F094AA00141C89 /* Roboto-CondensedItalic.ttf in Resources */,
+				5E0D9BFC18F094AA00141C89 /* Roboto-Condensed.ttf in Resources */,
+				5E0D9C0018F094AA00141C89 /* Roboto-LightItalic.ttf in Resources */,
+				5E1A0BA418EE344A0092D84D /* TrackCellView.xib in Resources */,
+				5E0D9C0218F094AA00141C89 /* Roboto-MediumItalic.ttf in Resources */,
+				5E0D9BF518F094AA00141C89 /* NOTICE.txt in Resources */,
+				5E54292B18C68CFC00B67D7A /* QuizQuestion.h in Resources */,
+				5E54294F18C6908F00B67D7A /* CHANGELOG.markdown in Resources */,
+				5E54293118C68D1500B67D7A /* TechniqueQuizViewController.xib in Resources */,
+				5E54292C18C68CFC00B67D7A /* QuizQuestion.m in Resources */,
+				5E5428FE18C68B5600B67D7A /* InfoPlist.strings in Resources */,
+				5E54296118C690FD00B67D7A /* OpeningViewController.xib in Resources */,
+				5E77BAB919023A870023B7BC /* celloLingoIcon.png in Resources */,
+				5E0D9C0518F094AA00141C89 /* Roboto-ThinItalic.ttf in Resources */,
+				5E0D9C0318F094AA00141C89 /* Roboto-Regular.ttf in Resources */,
+				5ED0167A18FF5EB50089C31B /* odstemplikBold.otf in Resources */,
+				5ED0167D18FF5EB50089C31B /* OFL_License.txt in Resources */,
+				5E0D9C0618F094AA00141C89 /* Roboto_Specimen_Book.pdf in Resources */,
+				5E69374F1904B46D0051206D /* background.png in Resources */,
+				5E54290718C68B5600B67D7A /* Main.storyboard in Resources */,
+				5E0D9C0418F094AA00141C89 /* Roboto-Thin.ttf in Resources */,
+				5E0D9BF818F094AA00141C89 /* Roboto-Bold.ttf in Resources */,
+				5ED0167C18FF5EB50089C31B /* OFL_FAQ.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E54290F18C68B5600B67D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E54291D18C68B5600B67D7A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EB8701C18FE2B0100441093 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/sh -e";
+			shellScript = "find \"${SRCROOT}\" -name \"*.[ot]tf\" -print0\n";
+		};
+		8A75BC94304746D5B7B0BBDA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E0F30F79104008A3C06100 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E5428EC18C68B5600B67D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E54293318C68F2000B67D7A /* QuizQuestion.m in Sources */,
+				5E54296218C690FD00B67D7A /* StaffViewController.m in Sources */,
+				5E54295418C6908F00B67D7A /* UIView+FindFirstResponder.m in Sources */,
+				5E54295118C6908F00B67D7A /* kiss_fftr.c in Sources */,
+				5E54290A18C68B5600B67D7A /* ViewController.m in Sources */,
+				5E54293C18C6903F00B67D7A /* NoteKeyboard.m in Sources */,
+				5E54290418C68B5600B67D7A /* AppDelegate.m in Sources */,
+				5E54296818C6913C00B67D7A /* Note.m in Sources */,
+				5E54293018C68D1500B67D7A /* TechniqueQuizViewController.m in Sources */,
+				5E54298118C6B72900B67D7A /* Track.m in Sources */,
+				5E54298418C6B8CF00B67D7A /* TrackCell.m in Sources */,
+				5E54297D18C6A53000B67D7A /* SoundCloudSearchViewController.m in Sources */,
+				5E54295318C6908F00B67D7A /* SCListener.m in Sources */,
+				5E54293718C6902900B67D7A /* PlayNotesViewController.m in Sources */,
+				5E54296018C690FD00B67D7A /* OpeningViewController.m in Sources */,
+				5E54290018C68B5600B67D7A /* main.m in Sources */,
+				5E54295018C6908F00B67D7A /* kiss_fft.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E54290D18C68B5600B67D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E54291F18C68B5600B67D7A /* CelloLingoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E54291718C68B5600B67D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E5428EF18C68B5600B67D7A /* CelloLingo */;
+			targetProxy = 5E54291618C68B5600B67D7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E5428FC18C68B5600B67D7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E5428FD18C68B5600B67D7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5E54290518C68B5600B67D7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E54290618C68B5600B67D7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E54291B18C68B5600B67D7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E54291C18C68B5600B67D7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E54292018C68B5600B67D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5E54292118C68B5600B67D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E54292318C68B5600B67D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B4160DA73B54E9FB0528C2E /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CelloLingo/CelloLingo-Prefix.pch";
+				INFOPLIST_FILE = "CelloLingo/CelloLingo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5E54292418C68B5600B67D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B4160DA73B54E9FB0528C2E /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CelloLingo/CelloLingo-Prefix.pch";
+				INFOPLIST_FILE = "CelloLingo/CelloLingo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5E54292618C68B5600B67D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CelloLingo.app/CelloLingo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CelloLingo/CelloLingo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CelloLingoTests/CelloLingoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5E54292718C68B5600B67D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CelloLingo.app/CelloLingo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CelloLingo/CelloLingo-Prefix.pch";
+				INFOPLIST_FILE = "CelloLingoTests/CelloLingoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E5428EB18C68B5600B67D7A /* Build configuration list for PBXProject "CelloLingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E54292018C68B5600B67D7A /* Debug */,
+				5E54292118C68B5600B67D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E54292218C68B5600B67D7A /* Build configuration list for PBXNativeTarget "CelloLingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E54292318C68B5600B67D7A /* Debug */,
+				5E54292418C68B5600B67D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E54292518C68B5600B67D7A /* Build configuration list for PBXNativeTarget "CelloLingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E54292618C68B5600B67D7A /* Debug */,
+				5E54292718C68B5600B67D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E5428E818C68B5600B67D7A /* Project object */;
+}
