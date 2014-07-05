@@ -9,7 +9,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CelloLingo/SoundCloudSearchViewController.m"
+            filePath = "Classes/SoundCloudSearchViewController.m"
             timestampString = "419311093.640571"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"

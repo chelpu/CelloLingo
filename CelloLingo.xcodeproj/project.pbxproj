@@ -26,6 +26,7 @@
 		5E0D9C0518F094AA00141C89 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BF318F094AA00141C89 /* Roboto-ThinItalic.ttf */; };
 		5E0D9C0618F094AA00141C89 /* Roboto_Specimen_Book.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BF418F094AA00141C89 /* Roboto_Specimen_Book.pdf */; };
 		5E1A0BA418EE344A0092D84D /* TrackCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E1A0BA318EE344A0092D84D /* TrackCellView.xib */; };
+		5E2D177F19689A070094FC7A /* SoundCloudSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E2D177E19689A070094FC7A /* SoundCloudSearchViewController.xib */; };
 		5E5428F418C68B5600B67D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5428F318C68B5600B67D7A /* Foundation.framework */; };
 		5E5428F618C68B5600B67D7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5428F518C68B5600B67D7A /* CoreGraphics.framework */; };
 		5E5428F818C68B5600B67D7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5428F718C68B5600B67D7A /* UIKit.framework */; };
@@ -61,7 +62,6 @@
 		5E54296818C6913C00B67D7A /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54296518C6913C00B67D7A /* Note.m */; };
 		5E54297718C691F600B67D7A /* bassStaff.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5E54297618C691F600B67D7A /* bassStaff.gif */; };
 		5E54297D18C6A53000B67D7A /* SoundCloudSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54297B18C6A53000B67D7A /* SoundCloudSearchViewController.m */; };
-		5E54297E18C6A53000B67D7A /* SoundCloudSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E54297C18C6A53000B67D7A /* SoundCloudSearchViewController.xib */; };
 		5E54298118C6B72900B67D7A /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54298018C6B72900B67D7A /* Track.m */; };
 		5E54298418C6B8CF00B67D7A /* TrackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54298318C6B8CF00B67D7A /* TrackCell.m */; };
 		5E69374F1904B46D0051206D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E69374E1904B46D0051206D /* background.png */; };
@@ -107,6 +107,7 @@
 		5E0D9BF318F094AA00141C89 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		5E0D9BF418F094AA00141C89 /* Roboto_Specimen_Book.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Roboto_Specimen_Book.pdf; sourceTree = "<group>"; };
 		5E1A0BA318EE344A0092D84D /* TrackCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackCellView.xib; sourceTree = "<group>"; };
+		5E2D177E19689A070094FC7A /* SoundCloudSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoundCloudSearchViewController.xib; sourceTree = "<group>"; };
 		5E5428F018C68B5600B67D7A /* CelloLingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CelloLingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5428F318C68B5600B67D7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5E5428F518C68B5600B67D7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -125,16 +126,16 @@
 		5E54291A18C68B5600B67D7A /* CelloLingoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CelloLingoTests-Info.plist"; sourceTree = "<group>"; };
 		5E54291C18C68B5600B67D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E54291E18C68B5600B67D7A /* CelloLingoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CelloLingoTests.m; sourceTree = "<group>"; };
-		5E54292818C68CFC00B67D7A /* QuizQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizQuestion.h; sourceTree = "<group>"; };
-		5E54292918C68CFC00B67D7A /* QuizQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizQuestion.m; sourceTree = "<group>"; };
-		5E54292D18C68D1500B67D7A /* TechniqueQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TechniqueQuizViewController.h; sourceTree = SOURCE_ROOT; };
-		5E54292E18C68D1500B67D7A /* TechniqueQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TechniqueQuizViewController.m; sourceTree = SOURCE_ROOT; };
+		5E54292818C68CFC00B67D7A /* QuizQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QuizQuestion.h; path = Classes/QuizQuestion.h; sourceTree = "<group>"; };
+		5E54292918C68CFC00B67D7A /* QuizQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QuizQuestion.m; path = Classes/QuizQuestion.m; sourceTree = "<group>"; };
+		5E54292D18C68D1500B67D7A /* TechniqueQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TechniqueQuizViewController.h; path = Classes/TechniqueQuizViewController.h; sourceTree = SOURCE_ROOT; };
+		5E54292E18C68D1500B67D7A /* TechniqueQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TechniqueQuizViewController.m; path = Classes/TechniqueQuizViewController.m; sourceTree = SOURCE_ROOT; };
 		5E54292F18C68D1500B67D7A /* TechniqueQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TechniqueQuizViewController.xib; sourceTree = SOURCE_ROOT; };
-		5E54293418C6902900B67D7A /* PlayNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayNotesViewController.h; sourceTree = SOURCE_ROOT; };
-		5E54293518C6902900B67D7A /* PlayNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayNotesViewController.m; sourceTree = SOURCE_ROOT; };
+		5E54293418C6902900B67D7A /* PlayNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayNotesViewController.h; path = Classes/PlayNotesViewController.h; sourceTree = SOURCE_ROOT; };
+		5E54293518C6902900B67D7A /* PlayNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayNotesViewController.m; path = Classes/PlayNotesViewController.m; sourceTree = SOURCE_ROOT; };
 		5E54293618C6902900B67D7A /* PlayNotesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayNotesViewController.xib; sourceTree = SOURCE_ROOT; };
-		5E54293918C6903F00B67D7A /* NoteKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteKeyboard.h; sourceTree = SOURCE_ROOT; };
-		5E54293A18C6903F00B67D7A /* NoteKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteKeyboard.m; sourceTree = SOURCE_ROOT; };
+		5E54293918C6903F00B67D7A /* NoteKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteKeyboard.h; path = Classes/NoteKeyboard.h; sourceTree = SOURCE_ROOT; };
+		5E54293A18C6903F00B67D7A /* NoteKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteKeyboard.m; path = Classes/NoteKeyboard.m; sourceTree = SOURCE_ROOT; };
 		5E54293B18C6903F00B67D7A /* NoteKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoteKeyboard.xib; sourceTree = SOURCE_ROOT; };
 		5E54294218C6908F00B67D7A /* _kiss_fft_guts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _kiss_fft_guts.h; sourceTree = "<group>"; };
 		5E54294318C6908F00B67D7A /* CHANGELOG.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.markdown; sourceTree = "<group>"; };
@@ -145,34 +146,33 @@
 		5E54294818C6908F00B67D7A /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		5E54294918C6908F00B67D7A /* SCListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCListener.h; sourceTree = "<group>"; };
 		5E54294A18C6908F00B67D7A /* SCListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCListener.m; sourceTree = "<group>"; };
-		5E54294B18C6908F00B67D7A /* UIView+FindFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FindFirstResponder.h"; sourceTree = SOURCE_ROOT; };
-		5E54294C18C6908F00B67D7A /* UIView+FindFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FindFirstResponder.m"; sourceTree = SOURCE_ROOT; };
-		5E54295818C690FD00B67D7A /* OpeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningViewController.h; sourceTree = SOURCE_ROOT; };
-		5E54295918C690FD00B67D7A /* OpeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningViewController.m; sourceTree = SOURCE_ROOT; };
+		5E54294B18C6908F00B67D7A /* UIView+FindFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FindFirstResponder.h"; path = "Classes/UIView+FindFirstResponder.h"; sourceTree = SOURCE_ROOT; };
+		5E54294C18C6908F00B67D7A /* UIView+FindFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FindFirstResponder.m"; path = "Classes/UIView+FindFirstResponder.m"; sourceTree = SOURCE_ROOT; };
+		5E54295818C690FD00B67D7A /* OpeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpeningViewController.h; path = Classes/OpeningViewController.h; sourceTree = SOURCE_ROOT; };
+		5E54295918C690FD00B67D7A /* OpeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpeningViewController.m; path = Classes/OpeningViewController.m; sourceTree = SOURCE_ROOT; };
 		5E54295A18C690FD00B67D7A /* OpeningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpeningViewController.xib; sourceTree = SOURCE_ROOT; };
-		5E54295B18C690FD00B67D7A /* StaffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaffViewController.h; sourceTree = SOURCE_ROOT; };
-		5E54295C18C690FD00B67D7A /* StaffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaffViewController.m; sourceTree = SOURCE_ROOT; };
+		5E54295B18C690FD00B67D7A /* StaffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StaffViewController.h; path = Classes/StaffViewController.h; sourceTree = SOURCE_ROOT; };
+		5E54295C18C690FD00B67D7A /* StaffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StaffViewController.m; path = Classes/StaffViewController.m; sourceTree = SOURCE_ROOT; };
 		5E54295D18C690FD00B67D7A /* StaffViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StaffViewController.xib; sourceTree = SOURCE_ROOT; };
-		5E54296418C6913C00B67D7A /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
-		5E54296518C6913C00B67D7A /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		5E54296418C6913C00B67D7A /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Note.h; path = Classes/Note.h; sourceTree = "<group>"; };
+		5E54296518C6913C00B67D7A /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Note.m; path = Classes/Note.m; sourceTree = "<group>"; };
 		5E54297618C691F600B67D7A /* bassStaff.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bassStaff.gif; sourceTree = "<group>"; };
-		5E54297A18C6A53000B67D7A /* SoundCloudSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundCloudSearchViewController.h; sourceTree = "<group>"; };
-		5E54297B18C6A53000B67D7A /* SoundCloudSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundCloudSearchViewController.m; sourceTree = "<group>"; };
-		5E54297C18C6A53000B67D7A /* SoundCloudSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoundCloudSearchViewController.xib; sourceTree = "<group>"; };
-		5E54297F18C6B72900B67D7A /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = SOURCE_ROOT; };
-		5E54298018C6B72900B67D7A /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = SOURCE_ROOT; };
-		5E54298218C6B8CF00B67D7A /* TrackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackCell.h; sourceTree = SOURCE_ROOT; };
-		5E54298318C6B8CF00B67D7A /* TrackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackCell.m; sourceTree = SOURCE_ROOT; };
+		5E54297A18C6A53000B67D7A /* SoundCloudSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundCloudSearchViewController.h; path = ../Classes/SoundCloudSearchViewController.h; sourceTree = "<group>"; };
+		5E54297B18C6A53000B67D7A /* SoundCloudSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundCloudSearchViewController.m; path = ../Classes/SoundCloudSearchViewController.m; sourceTree = "<group>"; };
+		5E54297F18C6B72900B67D7A /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Track.h; path = Classes/Track.h; sourceTree = SOURCE_ROOT; };
+		5E54298018C6B72900B67D7A /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Track.m; path = Classes/Track.m; sourceTree = SOURCE_ROOT; };
+		5E54298218C6B8CF00B67D7A /* TrackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackCell.h; path = Classes/TrackCell.h; sourceTree = SOURCE_ROOT; };
+		5E54298318C6B8CF00B67D7A /* TrackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackCell.m; path = Classes/TrackCell.m; sourceTree = SOURCE_ROOT; };
 		5E69374E1904B46D0051206D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		5E77BAB519023A1A0023B7BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5E77BAB719023A870023B7BC /* celloLingoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celloLingoIcon.png; sourceTree = "<group>"; };
 		5E77BABB19023F8C0023B7BC /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
-		5ED0167218FF5EB50089C31B /* FontLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FontLog; sourceTree = "<group>"; };
-		5ED0167318FF5EB50089C31B /* odstemplik.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = odstemplik.otf; sourceTree = "<group>"; };
-		5ED0167418FF5EB50089C31B /* odstemplikBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = odstemplikBold.otf; sourceTree = "<group>"; };
-		5ED0167518FF5EB50089C31B /* odstemplikSpec.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = odstemplikSpec.pdf; sourceTree = "<group>"; };
-		5ED0167618FF5EB50089C31B /* OFL_FAQ.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL_FAQ.txt; sourceTree = "<group>"; };
-		5ED0167718FF5EB50089C31B /* OFL_License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL_License.txt; sourceTree = "<group>"; };
+		5ED0167218FF5EB50089C31B /* FontLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FontLog; path = ../../odstemplik/FontLog; sourceTree = "<group>"; };
+		5ED0167318FF5EB50089C31B /* odstemplik.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = odstemplik.otf; path = ../../odstemplik/odstemplik.otf; sourceTree = "<group>"; };
+		5ED0167418FF5EB50089C31B /* odstemplikBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = odstemplikBold.otf; path = ../../odstemplik/odstemplikBold.otf; sourceTree = "<group>"; };
+		5ED0167518FF5EB50089C31B /* odstemplikSpec.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = odstemplikSpec.pdf; path = ../../odstemplik/odstemplikSpec.pdf; sourceTree = "<group>"; };
+		5ED0167618FF5EB50089C31B /* OFL_FAQ.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OFL_FAQ.txt; path = ../../odstemplik/OFL_FAQ.txt; sourceTree = "<group>"; };
+		5ED0167718FF5EB50089C31B /* OFL_License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OFL_License.txt; path = ../../odstemplik/OFL_License.txt; sourceTree = "<group>"; };
 		7B4160DA73B54E9FB0528C2E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		F7E67BC92A28407EB51144D5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -347,7 +347,7 @@
 				5E54292F18C68D1500B67D7A /* TechniqueQuizViewController.xib */,
 				5E54297A18C6A53000B67D7A /* SoundCloudSearchViewController.h */,
 				5E54297B18C6A53000B67D7A /* SoundCloudSearchViewController.m */,
-				5E54297C18C6A53000B67D7A /* SoundCloudSearchViewController.xib */,
+				5E2D177E19689A070094FC7A /* SoundCloudSearchViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -475,11 +475,11 @@
 			files = (
 				5E0D9C0118F094AA00141C89 /* Roboto-Medium.ttf in Resources */,
 				5ED0167918FF5EB50089C31B /* odstemplik.otf in Resources */,
+				5E2D177F19689A070094FC7A /* SoundCloudSearchViewController.xib in Resources */,
 				5E0D9BFB18F094AA00141C89 /* Roboto-BoldItalic.ttf in Resources */,
 				5E0D9BFE18F094AA00141C89 /* Roboto-Italic.ttf in Resources */,
 				5E54295218C6908F00B67D7A /* README.markdown in Resources */,
 				5E54296318C690FD00B67D7A /* StaffViewController.xib in Resources */,
-				5E54297E18C6A53000B67D7A /* SoundCloudSearchViewController.xib in Resources */,
 				5ED0167818FF5EB50089C31B /* FontLog in Resources */,
 				5E77BAB619023A1A0023B7BC /* Images.xcassets in Resources */,
 				5E54297718C691F600B67D7A /* bassStaff.gif in Resources */,
