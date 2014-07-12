@@ -10,11 +10,11 @@
 
 @interface StaffViewController : UIViewController <UITextFieldDelegate>
 
+@property int staffYValue;
 @property (strong, nonatomic) NSMutableArray *notesArray;
 @property (strong, nonatomic) NSArray *notes;
 @property (strong, nonatomic) NSMutableArray *noteValImageViews;
 @property (strong, nonatomic) NSMutableArray *staffNoteImageViews;
-
 @property (strong, nonatomic) IBOutlet UIImageView *staffImageView;
 - (IBAction)checkNotes:(id)sender;
 

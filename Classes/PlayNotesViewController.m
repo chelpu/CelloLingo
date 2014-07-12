@@ -11,6 +11,8 @@
 @interface PlayNotesViewController () {
     NSTimer *_timer;
     IBOutlet UIButton *_beginButton;
+    int _numNotes;
+    int _numVals;
 }
 
 @end
@@ -24,6 +26,9 @@
         self.noteCorrect = [[NSMutableArray alloc] init];
         self.staffNoteImageViews = [[NSMutableArray alloc] init];
         self.notesPlayed = [[NSMutableArray alloc] init];
+        self.staffYValue = 366;
+        _numNotes = 8;
+        _numVals = 8;
     }
     return self;
 }
@@ -34,7 +39,7 @@
     [self.notePlayedLabel setHidden:YES];
     [_beginButton setTitle:@"BEGIN" forState:UIControlStateNormal];
     self.count = 0;
-    for(int i = 0; i < 8; i++) {
+    for(int i = 0; i < _numNotes; i++) {
         [self.noteCorrect addObject:@"NO"];
     }
 }
@@ -56,17 +61,6 @@
 - (void) setUpTextFields {
     
 }
-
-- (void)createRandomNotes {
-    for (int i = 0; i < 8; i++) {
-        NSInteger curNoteVal = arc4random_uniform(8);
-        Note *curNote = [[Note alloc] initWithValue:curNoteVal xPosition:i];
-        curNote.noteView.frame = CGRectMake(120 + i*80.0, 366 - curNoteVal*14.0, 27, 27);
-        [self.notesArray addObject:curNote];
-        
-    }
-}
-
 
 - (IBAction)pressedTry:(id)sender {
     
@@ -91,7 +85,7 @@
     int hey = [self freqToMIDI:freq];
     NSString *str = [self midiToString:hey];
     self.notePlayedLabel.text = str;
-    if(self.count < 8) {
+    if(self.count < _numNotes) {
         Note *n = self.notesArray[self.count];
         int value = n.value;
         if([str isEqualToString:self.notes[value]]) {
@@ -104,10 +98,7 @@
     } else {
         self.count = 0;
         
-        // Generate correct note sequence on staff in red
-        for(int i = 0; i < self.notesPlayed.count; i++) {
-            //NSLog(@"note val played: %@", self.notesPlayed[i]);
-        }
+        // TODO - Generate correct note sequence on staff in green
         [_timer invalidate];
         [[SCListener sharedListener] pause];
         

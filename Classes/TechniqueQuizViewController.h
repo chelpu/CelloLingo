@@ -6,9 +6,8 @@
 //  Copyright (c) 2014 Chelsea Pugh. All rights reserved.
 //
 
-#import "ViewController.h"
+@interface TechniqueQuizViewController : UIViewController
 
-@interface TechniqueQuizViewController : ViewController
 @property (strong, nonatomic) IBOutlet UILabel *questionLabel;
 
 @end

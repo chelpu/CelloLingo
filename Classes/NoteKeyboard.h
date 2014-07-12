@@ -12,8 +12,6 @@
 
 @property BOOL isShown;
 
-- (void)show;
-- (void)hide;
 + (instancetype) keyboard;
 
 @end

@@ -6,18 +6,12 @@
 //  Copyright (c) 2014 Chelsea Pugh. All rights reserved.
 //
 #import <libextobjc/EXTScope.h>
-#import "Track.h"
 #import <FrameAccessor/FrameAccessor.h>
 #import "TrackCell.h"
 #import "SoundCloudSearchViewController.h"
 #import "SCUI.h"
 #import <AFNetworking/AFNetworking.h>
 #import <AFNetworking/UIImageView+AFNetworking.h>
-@interface SoundCloudSearchViewController ()
-@property (strong, nonatomic) AVAudioPlayer *player;
-
-
-@end
 
 @implementation SoundCloudSearchViewController {
     BOOL _isPlaying;
@@ -53,7 +47,6 @@
             if([dict objectForKey:@"stream_url"]) {
                 [self.tracks addObject:dict];
                 [_playing addObject:[NSNumber numberWithBool:NO]];
-
             }
         }
         self.tableView.separatorColor = [UIColor grayColor];
@@ -107,10 +100,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //TrackCell *cell = (TrackCell *)[tableView cellForRowAtIndexPath:indexPath];
     NSNumber *p = [_playing objectAtIndex:indexPath.row];
     BOOL isPlaying = [p boolValue];
-    NSLog(@"AM I PLAYING: %i", isPlaying);
     if(isPlaying == YES) {
         [tableView deselectRowAtIndexPath:indexPath animated:YES];
         [_playing replaceObjectAtIndex:indexPath.row withObject:[NSNumber numberWithBool:NO]];
@@ -125,7 +116,7 @@
 
         [SCRequest performMethod:SCRequestMethodGET
                       onResource:[NSURL URLWithString:streamURL]
-                 usingParameters:@{@"client_id": @"c76d3fe9bb6cfee88bb0d1598219eee4", @"order": @"created_at"}
+                 usingParameters:@{@"client_id": @"c76d3fe9bb6cfee88bb0d1598219eee4"}
                      withAccount:nil
           sendingProgressHandler:nil
                  responseHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
@@ -133,24 +124,19 @@
                      [hud hide:YES];
                      self.player = [[AVAudioPlayer alloc] initWithData:data error:&playerError];
                      self.player.delegate = self;
-                     
                      [self.player play];
-                 }];
+                 }
+         ];
     }
 }
-
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 210.0f;
 }
 
-
-
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

@@ -19,12 +19,14 @@
     NSMutableArray *_selectionButtons;
     NSInteger _answerIndex;
     NSInteger _curQuestionIndex;
+    int _numLvls;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        _numLvls = 5;
         _questionsAndAnswers = [[NSMutableArray alloc] init];
         _answerLabels = [[NSMutableArray alloc] init];
         _selectionButtons = [[NSMutableArray alloc] init];
@@ -44,23 +46,21 @@
     PFQuery *query = [PFQuery queryWithClassName:@"TechniqueQuestion"];
     [query whereKey:@"level" equalTo:level];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-    if (!error) {
-        for (int i = 0; i < objects.count; i++) {
-            PFObject *quizObject = objects[i];
-            QuizQuestion *curQQ = [[QuizQuestion alloc] initWithQuestion:quizObject[@"question"]
-                                                                 answers:quizObject[@"answers"]
-                                                             answerIndex:[quizObject[@"correct"] intValue]];
-            [_questionsAndAnswers addObject:curQQ];
+        if (!error) {
+            for (int i = 0; i < objects.count; i++) {
+                PFObject *quizObject = objects[i];
+                QuizQuestion *curQQ = [[QuizQuestion alloc] initWithQuestion:quizObject[@"question"]
+                                                                     answers:quizObject[@"answers"]
+                                                                 answerIndex:[quizObject[@"correct"] intValue]];
+                [_questionsAndAnswers addObject:curQQ];
+            }
+            _curQuestionIndex = qIndex;
+            [self repopulateQuestionViewWithQuestionIndex:_curQuestionIndex];
+            [hud hide:YES];
+        } else {
+            NSLog(@"Error: %@ %@", error, [error userInfo]);
         }
-        _curQuestionIndex = qIndex;
-        [self repopulateQuestionViewWithQuestionIndex:_curQuestionIndex];
-        [hud hide:YES];
-    } else {
-        NSLog(@"Error: %@ %@", error, [error userInfo]);
-    }
-}];
-
-
+    }];
 }
 
 - (void)answerButtonSelected:(id)sender {
@@ -138,14 +138,13 @@
         NSNumber *num = [defaults objectForKey:@"level"];
         NSNumber *level = [NSNumber numberWithInt:([num intValue] + 1)];
         NSNumber *curQ = [NSNumber numberWithInt:0];
-        if([level intValue] < 5) {
+        if([level intValue] < _numLvls) {
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:@"Level %@ Completed!", num]
                                                             message:@"You completed the level."
                                                            delegate:Nil
                                                   cancelButtonTitle:@"Move On"
                                                   otherButtonTitles:nil, nil];
             [alert show];
-            //_curQuestionIndex = 0;
             [_questionsAndAnswers removeAllObjects];
             [defaults setObject:level forKey:@"level"];
             [defaults setObject:curQ forKey:@"curQuestion"];
@@ -153,8 +152,6 @@
 
             [self viewDidLoad];
         } else {
-            /* QUIZ COMPLETE */
-            
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Quiz Completed!"
                                                             message:@"You completed the entire quiz."
                                                            delegate:Nil
@@ -164,12 +161,9 @@
             _curQuestionIndex = 0;
             [_questionsAndAnswers removeAllObjects];
             [defaults setObject:[NSNumber numberWithInt:1] forKey:@"level"];
-
             [defaults synchronize];
             [self viewDidLoad];
         }
-        
-        
     }
 }
 

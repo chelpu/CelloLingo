@@ -8,16 +8,18 @@
 #import "OpeningViewController.h"
 #import "AppDelegate.h"
 #import "SCUI.h"
+#import "Secrets.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [SCSoundCloud setClientID:@"c76d3fe9bb6cfee88bb0d1598219eee4"
-                       secret:@"66360dbcf98d672fb4af2fbb5a0351c8"
+    Secrets *secrets = [[Secrets alloc] init];
+    [SCSoundCloud setClientID:secrets.SCClientID
+                       secret:secrets.SCSecret
                   redirectURL:[NSURL URLWithString:@"https://api.soundcloud.com/oauth2/token"]];
-    [Parse setApplicationId:@"bhDyk8YsZefvMzRFA8l1JmxW9H1ylWG5mp0QqBoa"
-                  clientKey:@"kt2DXoyX3jLJkWzhE00OUDBEdEzp2twifLy2JOOJ"];
+    [Parse setApplicationId:secrets.ParseAppID
+                  clientKey:secrets.ParseClientKey];
     UIViewController *vc = [[OpeningViewController alloc] initWithNibName:@"OpeningViewController"
                                                                    bundle:nil];
     UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:vc];

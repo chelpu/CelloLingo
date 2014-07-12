@@ -33,8 +33,6 @@
 		5E5428FE18C68B5600B67D7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E5428FC18C68B5600B67D7A /* InfoPlist.strings */; };
 		5E54290018C68B5600B67D7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5428FF18C68B5600B67D7A /* main.m */; };
 		5E54290418C68B5600B67D7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54290318C68B5600B67D7A /* AppDelegate.m */; };
-		5E54290718C68B5600B67D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E54290518C68B5600B67D7A /* Main.storyboard */; };
-		5E54290A18C68B5600B67D7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54290918C68B5600B67D7A /* ViewController.m */; };
 		5E54291318C68B5600B67D7A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E54291218C68B5600B67D7A /* XCTest.framework */; };
 		5E54291418C68B5600B67D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5428F318C68B5600B67D7A /* Foundation.framework */; };
 		5E54291518C68B5600B67D7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5428F718C68B5600B67D7A /* UIKit.framework */; };
@@ -49,11 +47,6 @@
 		5E54293818C6902900B67D7A /* PlayNotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E54293618C6902900B67D7A /* PlayNotesViewController.xib */; };
 		5E54293C18C6903F00B67D7A /* NoteKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54293A18C6903F00B67D7A /* NoteKeyboard.m */; };
 		5E54293D18C6903F00B67D7A /* NoteKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E54293B18C6903F00B67D7A /* NoteKeyboard.xib */; };
-		5E54294F18C6908F00B67D7A /* CHANGELOG.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5E54294318C6908F00B67D7A /* CHANGELOG.markdown */; };
-		5E54295018C6908F00B67D7A /* kiss_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E54294418C6908F00B67D7A /* kiss_fft.c */; };
-		5E54295118C6908F00B67D7A /* kiss_fftr.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E54294618C6908F00B67D7A /* kiss_fftr.c */; };
-		5E54295218C6908F00B67D7A /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5E54294818C6908F00B67D7A /* README.markdown */; };
-		5E54295318C6908F00B67D7A /* SCListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54294A18C6908F00B67D7A /* SCListener.m */; };
 		5E54295418C6908F00B67D7A /* UIView+FindFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54294C18C6908F00B67D7A /* UIView+FindFirstResponder.m */; };
 		5E54296018C690FD00B67D7A /* OpeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54295918C690FD00B67D7A /* OpeningViewController.m */; };
 		5E54296118C690FD00B67D7A /* OpeningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E54295A18C690FD00B67D7A /* OpeningViewController.xib */; };
@@ -62,7 +55,6 @@
 		5E54296818C6913C00B67D7A /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54296518C6913C00B67D7A /* Note.m */; };
 		5E54297718C691F600B67D7A /* bassStaff.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5E54297618C691F600B67D7A /* bassStaff.gif */; };
 		5E54297D18C6A53000B67D7A /* SoundCloudSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54297B18C6A53000B67D7A /* SoundCloudSearchViewController.m */; };
-		5E54298118C6B72900B67D7A /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54298018C6B72900B67D7A /* Track.m */; };
 		5E54298418C6B8CF00B67D7A /* TrackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E54298318C6B8CF00B67D7A /* TrackCell.m */; };
 		5E69374F1904B46D0051206D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E69374E1904B46D0051206D /* background.png */; };
 		5E77BAB619023A1A0023B7BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E77BAB519023A1A0023B7BC /* Images.xcassets */; };
@@ -118,9 +110,6 @@
 		5E54290118C68B5600B67D7A /* CelloLingo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CelloLingo-Prefix.pch"; sourceTree = "<group>"; };
 		5E54290218C68B5600B67D7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E54290318C68B5600B67D7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5E54290618C68B5600B67D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5E54290818C68B5600B67D7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5E54290918C68B5600B67D7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5E54291118C68B5600B67D7A /* CelloLingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CelloLingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E54291218C68B5600B67D7A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5E54291A18C68B5600B67D7A /* CelloLingoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CelloLingoTests-Info.plist"; sourceTree = "<group>"; };
@@ -137,15 +126,6 @@
 		5E54293918C6903F00B67D7A /* NoteKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteKeyboard.h; path = Classes/NoteKeyboard.h; sourceTree = SOURCE_ROOT; };
 		5E54293A18C6903F00B67D7A /* NoteKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteKeyboard.m; path = Classes/NoteKeyboard.m; sourceTree = SOURCE_ROOT; };
 		5E54293B18C6903F00B67D7A /* NoteKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoteKeyboard.xib; sourceTree = SOURCE_ROOT; };
-		5E54294218C6908F00B67D7A /* _kiss_fft_guts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _kiss_fft_guts.h; sourceTree = "<group>"; };
-		5E54294318C6908F00B67D7A /* CHANGELOG.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.markdown; sourceTree = "<group>"; };
-		5E54294418C6908F00B67D7A /* kiss_fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kiss_fft.c; sourceTree = "<group>"; };
-		5E54294518C6908F00B67D7A /* kiss_fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kiss_fft.h; sourceTree = "<group>"; };
-		5E54294618C6908F00B67D7A /* kiss_fftr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kiss_fftr.c; sourceTree = "<group>"; };
-		5E54294718C6908F00B67D7A /* kiss_fftr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kiss_fftr.h; sourceTree = "<group>"; };
-		5E54294818C6908F00B67D7A /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
-		5E54294918C6908F00B67D7A /* SCListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCListener.h; sourceTree = "<group>"; };
-		5E54294A18C6908F00B67D7A /* SCListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCListener.m; sourceTree = "<group>"; };
 		5E54294B18C6908F00B67D7A /* UIView+FindFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FindFirstResponder.h"; path = "Classes/UIView+FindFirstResponder.h"; sourceTree = SOURCE_ROOT; };
 		5E54294C18C6908F00B67D7A /* UIView+FindFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FindFirstResponder.m"; path = "Classes/UIView+FindFirstResponder.m"; sourceTree = SOURCE_ROOT; };
 		5E54295818C690FD00B67D7A /* OpeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpeningViewController.h; path = Classes/OpeningViewController.h; sourceTree = SOURCE_ROOT; };
@@ -159,8 +139,6 @@
 		5E54297618C691F600B67D7A /* bassStaff.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bassStaff.gif; sourceTree = "<group>"; };
 		5E54297A18C6A53000B67D7A /* SoundCloudSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundCloudSearchViewController.h; path = ../Classes/SoundCloudSearchViewController.h; sourceTree = "<group>"; };
 		5E54297B18C6A53000B67D7A /* SoundCloudSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundCloudSearchViewController.m; path = ../Classes/SoundCloudSearchViewController.m; sourceTree = "<group>"; };
-		5E54297F18C6B72900B67D7A /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Track.h; path = Classes/Track.h; sourceTree = SOURCE_ROOT; };
-		5E54298018C6B72900B67D7A /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Track.m; path = Classes/Track.m; sourceTree = SOURCE_ROOT; };
 		5E54298218C6B8CF00B67D7A /* TrackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackCell.h; path = Classes/TrackCell.h; sourceTree = SOURCE_ROOT; };
 		5E54298318C6B8CF00B67D7A /* TrackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackCell.m; path = Classes/TrackCell.m; sourceTree = SOURCE_ROOT; };
 		5E69374E1904B46D0051206D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
@@ -266,14 +244,10 @@
 		5E5428F918C68B5600B67D7A /* CelloLingo */ = {
 			isa = PBXGroup;
 			children = (
-				5E54294118C6908F00B67D7A /* Listener */,
 				5E54293218C68D2100B67D7A /* ViewControllers */,
 				5E54292A18C68CFC00B67D7A /* Classes */,
 				5E54290218C68B5600B67D7A /* AppDelegate.h */,
 				5E54290318C68B5600B67D7A /* AppDelegate.m */,
-				5E54290518C68B5600B67D7A /* Main.storyboard */,
-				5E54290818C68B5600B67D7A /* ViewController.h */,
-				5E54290918C68B5600B67D7A /* ViewController.m */,
 				5E5428FA18C68B5600B67D7A /* Supporting Files */,
 			);
 			path = CelloLingo;
@@ -314,8 +288,6 @@
 				5E54298218C6B8CF00B67D7A /* TrackCell.h */,
 				5E54298318C6B8CF00B67D7A /* TrackCell.m */,
 				5E1A0BA318EE344A0092D84D /* TrackCellView.xib */,
-				5E54297F18C6B72900B67D7A /* Track.h */,
-				5E54298018C6B72900B67D7A /* Track.m */,
 				5E54296418C6913C00B67D7A /* Note.h */,
 				5E54296518C6913C00B67D7A /* Note.m */,
 				5E54292818C68CFC00B67D7A /* QuizQuestion.h */,
@@ -351,23 +323,6 @@
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
-		};
-		5E54294118C6908F00B67D7A /* Listener */ = {
-			isa = PBXGroup;
-			children = (
-				5E54294218C6908F00B67D7A /* _kiss_fft_guts.h */,
-				5E54294318C6908F00B67D7A /* CHANGELOG.markdown */,
-				5E54294418C6908F00B67D7A /* kiss_fft.c */,
-				5E54294518C6908F00B67D7A /* kiss_fft.h */,
-				5E54294618C6908F00B67D7A /* kiss_fftr.c */,
-				5E54294718C6908F00B67D7A /* kiss_fftr.h */,
-				5E54294818C6908F00B67D7A /* README.markdown */,
-				5E54294918C6908F00B67D7A /* SCListener.h */,
-				5E54294A18C6908F00B67D7A /* SCListener.m */,
-			);
-			name = Listener;
-			path = "sc_listener-master";
-			sourceTree = SOURCE_ROOT;
 		};
 		5E54296B18C6919400B67D7A /* images */ = {
 			isa = PBXGroup;
@@ -478,7 +433,6 @@
 				5E2D177F19689A070094FC7A /* SoundCloudSearchViewController.xib in Resources */,
 				5E0D9BFB18F094AA00141C89 /* Roboto-BoldItalic.ttf in Resources */,
 				5E0D9BFE18F094AA00141C89 /* Roboto-Italic.ttf in Resources */,
-				5E54295218C6908F00B67D7A /* README.markdown in Resources */,
 				5E54296318C690FD00B67D7A /* StaffViewController.xib in Resources */,
 				5ED0167818FF5EB50089C31B /* FontLog in Resources */,
 				5E77BAB619023A1A0023B7BC /* Images.xcassets in Resources */,
@@ -499,7 +453,6 @@
 				5E0D9C0218F094AA00141C89 /* Roboto-MediumItalic.ttf in Resources */,
 				5E0D9BF518F094AA00141C89 /* NOTICE.txt in Resources */,
 				5E54292B18C68CFC00B67D7A /* QuizQuestion.h in Resources */,
-				5E54294F18C6908F00B67D7A /* CHANGELOG.markdown in Resources */,
 				5E54293118C68D1500B67D7A /* TechniqueQuizViewController.xib in Resources */,
 				5E54292C18C68CFC00B67D7A /* QuizQuestion.m in Resources */,
 				5E5428FE18C68B5600B67D7A /* InfoPlist.strings in Resources */,
@@ -511,7 +464,6 @@
 				5ED0167D18FF5EB50089C31B /* OFL_License.txt in Resources */,
 				5E0D9C0618F094AA00141C89 /* Roboto_Specimen_Book.pdf in Resources */,
 				5E69374F1904B46D0051206D /* background.png in Resources */,
-				5E54290718C68B5600B67D7A /* Main.storyboard in Resources */,
 				5E0D9C0418F094AA00141C89 /* Roboto-Thin.ttf in Resources */,
 				5E0D9BF818F094AA00141C89 /* Roboto-Bold.ttf in Resources */,
 				5ED0167C18FF5EB50089C31B /* OFL_FAQ.txt in Resources */,
@@ -582,20 +534,15 @@
 				5E54293318C68F2000B67D7A /* QuizQuestion.m in Sources */,
 				5E54296218C690FD00B67D7A /* StaffViewController.m in Sources */,
 				5E54295418C6908F00B67D7A /* UIView+FindFirstResponder.m in Sources */,
-				5E54295118C6908F00B67D7A /* kiss_fftr.c in Sources */,
-				5E54290A18C68B5600B67D7A /* ViewController.m in Sources */,
 				5E54293C18C6903F00B67D7A /* NoteKeyboard.m in Sources */,
 				5E54290418C68B5600B67D7A /* AppDelegate.m in Sources */,
 				5E54296818C6913C00B67D7A /* Note.m in Sources */,
 				5E54293018C68D1500B67D7A /* TechniqueQuizViewController.m in Sources */,
-				5E54298118C6B72900B67D7A /* Track.m in Sources */,
 				5E54298418C6B8CF00B67D7A /* TrackCell.m in Sources */,
 				5E54297D18C6A53000B67D7A /* SoundCloudSearchViewController.m in Sources */,
-				5E54295318C6908F00B67D7A /* SCListener.m in Sources */,
 				5E54293718C6902900B67D7A /* PlayNotesViewController.m in Sources */,
 				5E54296018C690FD00B67D7A /* OpeningViewController.m in Sources */,
 				5E54290018C68B5600B67D7A /* main.m in Sources */,
-				5E54295018C6908F00B67D7A /* kiss_fft.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,14 +571,6 @@
 				5E5428FD18C68B5600B67D7A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5E54290518C68B5600B67D7A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E54290618C68B5600B67D7A /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		5E54291B18C68B5600B67D7A /* InfoPlist.strings */ = {

@@ -18,12 +18,14 @@ PODS:
   - AFNetworking/UIKit (2.2.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - Bolts (1.1.0)
   - CocoaSoundCloudAPI (1.0.2):
     - NXOAuth2Client (= 1.2.2)
   - CocoaSoundCloudUI (1.0.9):
     - CocoaSoundCloudAPI (~> 1.0.2)
     - OHAttributedLabel
-  - Facebook-iOS-SDK (3.13.1)
+  - Facebook-iOS-SDK (3.15.1):
+    - Bolts
   - FrameAccessor (1.3.2)
   - libextobjc (0.4):
     - libextobjc/EXTADT
@@ -62,9 +64,10 @@ PODS:
   - libextobjc/UmbrellaHeader (0.4)
   - MBProgressHUD (0.8)
   - NXOAuth2Client (1.2.2)
-  - OHAttributedLabel (3.5.3)
+  - OHAttributedLabel (3.5.4)
   - Parse-iOS-SDK (1.2.18):
     - Facebook-iOS-SDK (~> 3.7)
+  - SCListener (1.0.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.2.0)
@@ -74,17 +77,24 @@ DEPENDENCIES:
   - libextobjc
   - MBProgressHUD (~> 0.8)
   - Parse-iOS-SDK (~> 1.2.17)
+  - SCListener (from `https://github.com/chelpu/sc_listener.git`)
+
+EXTERNAL SOURCES:
+  SCListener:
+    :git: https://github.com/chelpu/sc_listener.git
 
 SPEC CHECKSUMS:
-  AFNetworking: e8cfd8f3fe3bfe19124a0cc63f4d45752d892a56
-  CocoaSoundCloudAPI: 76323652e2e49e15609932ec4bf349f2249d039e
-  CocoaSoundCloudUI: 0ba59a3bf331b7de5eca73bb5698cc046dc7d2e4
-  Facebook-iOS-SDK: 0d121e16437981fabff9379e07bf646bd5ab245c
-  FrameAccessor: 1c383c4dc298925749fb2a6b9c05cd45be0d8857
-  libextobjc: 2c9fc8226f0f38e562587f65172f93f0c9b4a47a
-  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
-  NXOAuth2Client: 2abb027fb64a9d9a467202e281bb0f2206924661
-  OHAttributedLabel: 985e4b57eec0dc6add79179ac47ec888b8a914e7
-  Parse-iOS-SDK: 48bfd538a107b6e1f29eebe59fa80c0f0b844dd1
+  AFNetworking: 5f2538aa2d150b71d4e6cca3a420d796e1e1c374
+  Bolts: 91c2af8eae1d44e1dd75946a5b0ae04a43ea43e4
+  CocoaSoundCloudAPI: 4e762deae813dbd34311780f19d7130d0c795b58
+  CocoaSoundCloudUI: 4a5ae1d08c4e9b66ec0db6c786f113a59a0bde4a
+  Facebook-iOS-SDK: 56214af8e0ef16e751eb2804250326b709e571b8
+  FrameAccessor: 8bf7a2c66f86005ff9bcd1c9cbd0a3eb4970910b
+  libextobjc: ba42e4111f433273a886cd54f0ddaddb7f62f82f
+  MBProgressHUD: c356980b0cd097f19acec959b49dca5eb8ec31be
+  NXOAuth2Client: d0d18286b0d47da2b066bc3ab4e95157b2890675
+  OHAttributedLabel: fcf1d1245b4c8d2df94da91369b1474901d7fb14
+  Parse-iOS-SDK: 5ff1959e6ad888dc3b5b7dc705b122ebf698a38c
+  SCListener: 339880ce339de0ecef154fad15c00fea2da775a1
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.33.1

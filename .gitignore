@@ -1,0 +1,4 @@
+Classes/Secrets*
+.DS_Store
+Pods/*
+build/*
