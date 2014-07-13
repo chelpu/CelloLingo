@@ -1,4 +1,4 @@
-Classes/Secrets*
+Secrets.*
 .DS_Store
 Pods/*
 build/*
