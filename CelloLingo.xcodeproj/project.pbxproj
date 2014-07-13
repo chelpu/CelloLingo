@@ -27,6 +27,7 @@
 		5E0D9C0618F094AA00141C89 /* Roboto_Specimen_Book.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D9BF418F094AA00141C89 /* Roboto_Specimen_Book.pdf */; };
 		5E1A0BA418EE344A0092D84D /* TrackCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E1A0BA318EE344A0092D84D /* TrackCellView.xib */; };
 		5E2D177F19689A070094FC7A /* SoundCloudSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E2D177E19689A070094FC7A /* SoundCloudSearchViewController.xib */; };
+		5E4AFC4A1972048200644376 /* Secrets.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AFC491972048200644376 /* Secrets.m */; };
 		5E5428F418C68B5600B67D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5428F318C68B5600B67D7A /* Foundation.framework */; };
 		5E5428F618C68B5600B67D7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5428F518C68B5600B67D7A /* CoreGraphics.framework */; };
 		5E5428F818C68B5600B67D7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5428F718C68B5600B67D7A /* UIKit.framework */; };
@@ -98,8 +99,10 @@
 		5E0D9BF218F094AA00141C89 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		5E0D9BF318F094AA00141C89 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		5E0D9BF418F094AA00141C89 /* Roboto_Specimen_Book.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Roboto_Specimen_Book.pdf; sourceTree = "<group>"; };
-		5E1A0BA318EE344A0092D84D /* TrackCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackCellView.xib; sourceTree = "<group>"; };
-		5E2D177E19689A070094FC7A /* SoundCloudSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoundCloudSearchViewController.xib; sourceTree = "<group>"; };
+		5E1A0BA318EE344A0092D84D /* TrackCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TrackCellView.xib; path = Xibs/TrackCellView.xib; sourceTree = "<group>"; };
+		5E2D177E19689A070094FC7A /* SoundCloudSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SoundCloudSearchViewController.xib; path = ../Xibs/SoundCloudSearchViewController.xib; sourceTree = "<group>"; };
+		5E4AFC461972038000644376 /* Secrets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Secrets.h; sourceTree = "<group>"; };
+		5E4AFC491972048200644376 /* Secrets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Secrets.m; sourceTree = "<group>"; };
 		5E5428F018C68B5600B67D7A /* CelloLingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CelloLingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5428F318C68B5600B67D7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5E5428F518C68B5600B67D7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,21 +122,21 @@
 		5E54292918C68CFC00B67D7A /* QuizQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QuizQuestion.m; path = Classes/QuizQuestion.m; sourceTree = "<group>"; };
 		5E54292D18C68D1500B67D7A /* TechniqueQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TechniqueQuizViewController.h; path = Classes/TechniqueQuizViewController.h; sourceTree = SOURCE_ROOT; };
 		5E54292E18C68D1500B67D7A /* TechniqueQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TechniqueQuizViewController.m; path = Classes/TechniqueQuizViewController.m; sourceTree = SOURCE_ROOT; };
-		5E54292F18C68D1500B67D7A /* TechniqueQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TechniqueQuizViewController.xib; sourceTree = SOURCE_ROOT; };
+		5E54292F18C68D1500B67D7A /* TechniqueQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TechniqueQuizViewController.xib; path = Xibs/TechniqueQuizViewController.xib; sourceTree = SOURCE_ROOT; };
 		5E54293418C6902900B67D7A /* PlayNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayNotesViewController.h; path = Classes/PlayNotesViewController.h; sourceTree = SOURCE_ROOT; };
 		5E54293518C6902900B67D7A /* PlayNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayNotesViewController.m; path = Classes/PlayNotesViewController.m; sourceTree = SOURCE_ROOT; };
-		5E54293618C6902900B67D7A /* PlayNotesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayNotesViewController.xib; sourceTree = SOURCE_ROOT; };
+		5E54293618C6902900B67D7A /* PlayNotesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlayNotesViewController.xib; path = Xibs/PlayNotesViewController.xib; sourceTree = SOURCE_ROOT; };
 		5E54293918C6903F00B67D7A /* NoteKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteKeyboard.h; path = Classes/NoteKeyboard.h; sourceTree = SOURCE_ROOT; };
 		5E54293A18C6903F00B67D7A /* NoteKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteKeyboard.m; path = Classes/NoteKeyboard.m; sourceTree = SOURCE_ROOT; };
-		5E54293B18C6903F00B67D7A /* NoteKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoteKeyboard.xib; sourceTree = SOURCE_ROOT; };
+		5E54293B18C6903F00B67D7A /* NoteKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NoteKeyboard.xib; path = Xibs/NoteKeyboard.xib; sourceTree = SOURCE_ROOT; };
 		5E54294B18C6908F00B67D7A /* UIView+FindFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FindFirstResponder.h"; path = "Classes/UIView+FindFirstResponder.h"; sourceTree = SOURCE_ROOT; };
 		5E54294C18C6908F00B67D7A /* UIView+FindFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FindFirstResponder.m"; path = "Classes/UIView+FindFirstResponder.m"; sourceTree = SOURCE_ROOT; };
 		5E54295818C690FD00B67D7A /* OpeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpeningViewController.h; path = Classes/OpeningViewController.h; sourceTree = SOURCE_ROOT; };
 		5E54295918C690FD00B67D7A /* OpeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpeningViewController.m; path = Classes/OpeningViewController.m; sourceTree = SOURCE_ROOT; };
-		5E54295A18C690FD00B67D7A /* OpeningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpeningViewController.xib; sourceTree = SOURCE_ROOT; };
+		5E54295A18C690FD00B67D7A /* OpeningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OpeningViewController.xib; path = Xibs/OpeningViewController.xib; sourceTree = SOURCE_ROOT; };
 		5E54295B18C690FD00B67D7A /* StaffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StaffViewController.h; path = Classes/StaffViewController.h; sourceTree = SOURCE_ROOT; };
 		5E54295C18C690FD00B67D7A /* StaffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StaffViewController.m; path = Classes/StaffViewController.m; sourceTree = SOURCE_ROOT; };
-		5E54295D18C690FD00B67D7A /* StaffViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StaffViewController.xib; sourceTree = SOURCE_ROOT; };
+		5E54295D18C690FD00B67D7A /* StaffViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StaffViewController.xib; path = Xibs/StaffViewController.xib; sourceTree = SOURCE_ROOT; };
 		5E54296418C6913C00B67D7A /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Note.h; path = Classes/Note.h; sourceTree = "<group>"; };
 		5E54296518C6913C00B67D7A /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Note.m; path = Classes/Note.m; sourceTree = "<group>"; };
 		5E54297618C691F600B67D7A /* bassStaff.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bassStaff.gif; sourceTree = "<group>"; };
@@ -285,6 +288,8 @@
 		5E54292A18C68CFC00B67D7A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5E4AFC461972038000644376 /* Secrets.h */,
+				5E4AFC491972048200644376 /* Secrets.m */,
 				5E54298218C6B8CF00B67D7A /* TrackCell.h */,
 				5E54298318C6B8CF00B67D7A /* TrackCell.m */,
 				5E1A0BA318EE344A0092D84D /* TrackCellView.xib */,
@@ -539,6 +544,7 @@
 				5E54296818C6913C00B67D7A /* Note.m in Sources */,
 				5E54293018C68D1500B67D7A /* TechniqueQuizViewController.m in Sources */,
 				5E54298418C6B8CF00B67D7A /* TrackCell.m in Sources */,
+				5E4AFC4A1972048200644376 /* Secrets.m in Sources */,
 				5E54297D18C6A53000B67D7A /* SoundCloudSearchViewController.m in Sources */,
 				5E54293718C6902900B67D7A /* PlayNotesViewController.m in Sources */,
 				5E54296018C690FD00B67D7A /* OpeningViewController.m in Sources */,
