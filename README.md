@@ -8,40 +8,43 @@ This is an application meant to help people learn more about playing cello. To g
 ## Usage
 To run the app, you'll need a SoundCloud developer account. Once you've created an app on SoundCloud, you'll receive a Client ID and a Client secret. Using these, you can create a secrets class which will be used to authenticate requests to SoundCloud.
 
-# Example
-        //
-        //  Secrets.h
-        //  CelloLingo
-        //
+Go here: https://developers.soundcloud.com/ and register a new app then insert the following class into CelloLingo.
+
+### Secrets.h
+    //
+    //  Secrets.h
+    //  CelloLingo
+    //
         
-        #import <Foundation/Foundation.h>
+    #import <Foundation/Foundation.h>
         
-        @interface Secrets : NSObject
+    @interface Secrets : NSObject
         
-        @property (strong, nonatomic) NSString *SCClientID;
-        @property (strong, nonatomic) NSString *SCSecret;
+    @property (strong, nonatomic) NSString *SCClientID;
+    @property (strong, nonatomic) NSString *SCSecret;
         
-        - (id)init;
+    - (id)init;
         
-        @end
+    @end
         
-        //
-        //  Secrets.m
-        //  CelloLingo
-        //
+### Secrets.m
+    //
+    //  Secrets.m
+    //  CelloLingo
+    //
         
-        #import "Secrets.h"
+    #import "Secrets.h"
         
-        @implementation Secrets
+    @implementation Secrets
         
-        - (id)init {
-            if(self = [super init]) {
-                self.SCClientID = @"{ Your SoundCloud app client id }";
-                self.SCSecret = @"{ Your SoundCloud app secret }";
-            }
-            return self;
+    - (id)init {
+        if(self = [super init]) {
+            self.SCClientID = @"{ Your SoundCloud app client id }";
+            self.SCSecret = @"{ Your SoundCloud app secret }";
         }
-        
-        @end
+        return self;
+    }
+    
+    @end
 
 
