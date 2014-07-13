@@ -8,6 +8,7 @@
 
 #import "TechniqueQuizViewController.h"
 #import "QuizQuestion.h"
+#import <AFNetworking/AFNetworking.h>
 
 @interface TechniqueQuizViewController ()
 
@@ -26,7 +27,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        _numLvls = 4;
+        _numLvls = 0;
         _questionsAndAnswers = [[NSMutableArray alloc] init];
         _answerLabels = [[NSMutableArray alloc] init];
         _selectionButtons = [[NSMutableArray alloc] init];
@@ -43,24 +44,30 @@
     NSNumber *level = [defaults objectForKey:@"level"];
     NSNumber *curQ = [defaults objectForKey:@"curQuestion"];
     NSInteger qIndex = [curQ intValue];
-    PFQuery *query = [PFQuery queryWithClassName:@"TechniqueQuestion"];
-    [query whereKey:@"level" equalTo:level];
-    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-        if (!error) {
-            for (int i = 0; i < objects.count; i++) {
-                PFObject *quizObject = objects[i];
-                QuizQuestion *curQQ = [[QuizQuestion alloc] initWithQuestion:quizObject[@"question"]
-                                                                     answers:quizObject[@"answers"]
-                                                                 answerIndex:[quizObject[@"correct"] intValue]];
-                [_questionsAndAnswers addObject:curQQ];
+    
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    [manager GET:@"http://cello-lingo.s3-website-us-west-2.amazonaws.com/Technique.json" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+            NSArray *arr = responseObject;
+            for(int i = 0; i < arr.count; ++i) {
+                NSDictionary *dict = arr[i];
+                // Set number of levels depending on response
+                if([[dict objectForKey:@"level"] intValue] >= _numLvls) {
+                    _numLvls = [[dict objectForKey:@"level"] intValue] + 1;
+                }
+                QuizQuestion *curQ = [[QuizQuestion alloc] initWithQuestion:[dict objectForKey:@"question"]
+                                                                    answers:[dict objectForKey:@"answers"]
+                                                                answerIndex:[[dict objectForKey:@"correct"] intValue]];
+                if([dict objectForKey:@"level"] == level) {
+                    [_questionsAndAnswers addObject:curQ];
+                }
             }
             _curQuestionIndex = qIndex;
             [self repopulateQuestionViewWithQuestionIndex:_curQuestionIndex];
             [hud hide:YES];
-        } else {
-            NSLog(@"Error: %@ %@", error, [error userInfo]);
+        } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+            NSLog(@"Error: %@", error);
         }
-    }];
+    ];
 }
 
 - (void)answerButtonSelected:(id)sender {
@@ -91,6 +98,7 @@
     _answerIndex = qq.answerIndex;
     for(int j = 0; j < qq.answers.count; j++) {
         UILabel *answerLabel = [[UILabel alloc] initWithFrame:CGRectMake(150.0f, 195 + 90.0*j, 568, 120)];
+        answerLabel.numberOfLines = 2;
         UIButton *selectionButton = [[UIButton alloc] initWithFrame:CGRectMake(50.0f, 215 + 90.0*j, 80.0f, 80.0f)];
         [selectionButton addTarget:self
                             action:@selector(answerButtonSelected:)
@@ -110,7 +118,6 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (void)clearStructures {

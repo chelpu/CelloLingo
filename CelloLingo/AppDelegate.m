@@ -18,8 +18,7 @@
     [SCSoundCloud setClientID:secrets.SCClientID
                        secret:secrets.SCSecret
                   redirectURL:[NSURL URLWithString:@"https://api.soundcloud.com/oauth2/token"]];
-    [Parse setApplicationId:secrets.ParseAppID
-                  clientKey:secrets.ParseClientKey];
+
     UIViewController *vc = [[OpeningViewController alloc] initWithNibName:@"OpeningViewController"
                                                                    bundle:nil];
     UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:vc];
