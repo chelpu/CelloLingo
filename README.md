@@ -39,8 +39,8 @@ Go here: https://developers.soundcloud.com/ and register a new app then insert t
         
     - (id)init {
         if(self = [super init]) {
-            self.SCClientID = @"{ Your SoundCloud app client id }";
-            self.SCSecret = @"{ Your SoundCloud app secret }";
+            self.SCClientID = @"Your SoundCloud app client id";
+            self.SCSecret = @"Your SoundCloud app secret";
         }
         return self;
     }
