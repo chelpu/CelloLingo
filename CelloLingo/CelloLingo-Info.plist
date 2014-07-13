@@ -26,10 +26,9 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Magnolia Light.ttf</string>
+		<string>Odstemplik.otf</string>
 		<string>Roboto-Black.ttf</string>
 		<string>Roboto-Regular.ttf</string>
-		<string>odstemplik.otf</string>
 		<string>Roboto-Bold.ttf</string>
 	</array>
 	<key>UIRequiredDeviceCapabilities</key>
