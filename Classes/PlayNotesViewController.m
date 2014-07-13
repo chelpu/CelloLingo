@@ -81,7 +81,6 @@
 
 - (void)getFreq {
     float freq = [[SCListener sharedListener] frequency];
-    NSLog(@"freq: %f", freq);
     int hey = [self freqToMIDI:freq];
     NSString *str = [self midiToString:hey];
     self.notePlayedLabel.text = str;

@@ -71,7 +71,6 @@
         for (int i = 0; i < _selectionButtons.count; i++) {
             [_selectionButtons[i] setBackgroundColor:[UIColor clearColor]];
             if(i != _answerIndex) {
-                NSLog(@"i: %d", i);
                 [_selectionButtons[i] setBackgroundImage:[UIImage new] forState:UIControlStateNormal];
             }
         }

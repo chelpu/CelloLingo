@@ -26,7 +26,6 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = nc;
     [self.window makeKeyAndVisible];
-    // Override point for customization after application launch.
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setObject:@1 forKey:@"level"];
     [defaults synchronize];

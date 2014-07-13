@@ -13,9 +13,8 @@
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    self.isPlaying = NO;
     if (self) {
-        // Initialization code
+        self.isPlaying = NO;
     }
     return self;
 }
@@ -23,8 +22,6 @@
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
     [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
 }
 
 -(void)prepareForReuse {
