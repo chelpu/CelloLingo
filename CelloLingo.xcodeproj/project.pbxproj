@@ -101,8 +101,8 @@
 		5E0D9BF418F094AA00141C89 /* Roboto_Specimen_Book.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Roboto_Specimen_Book.pdf; sourceTree = "<group>"; };
 		5E1A0BA318EE344A0092D84D /* TrackCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TrackCellView.xib; path = Xibs/TrackCellView.xib; sourceTree = "<group>"; };
 		5E2D177E19689A070094FC7A /* SoundCloudSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SoundCloudSearchViewController.xib; path = ../Xibs/SoundCloudSearchViewController.xib; sourceTree = "<group>"; };
-		5E4AFC461972038000644376 /* Secrets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Secrets.h; sourceTree = "<group>"; };
-		5E4AFC491972048200644376 /* Secrets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Secrets.m; sourceTree = "<group>"; };
+		5E4AFC461972038000644376 /* Secrets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Secrets.h; path = Classes/Secrets.h; sourceTree = "<group>"; };
+		5E4AFC491972048200644376 /* Secrets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Secrets.m; path = Classes/Secrets.m; sourceTree = "<group>"; };
 		5E5428F018C68B5600B67D7A /* CelloLingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CelloLingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5428F318C68B5600B67D7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5E5428F518C68B5600B67D7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
