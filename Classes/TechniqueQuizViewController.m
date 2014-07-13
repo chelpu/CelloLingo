@@ -26,7 +26,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        _numLvls = 5;
+        _numLvls = 4;
         _questionsAndAnswers = [[NSMutableArray alloc] init];
         _answerLabels = [[NSMutableArray alloc] init];
         _selectionButtons = [[NSMutableArray alloc] init];

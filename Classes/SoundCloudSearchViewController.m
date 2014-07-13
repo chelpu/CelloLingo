@@ -12,10 +12,12 @@
 #import "SCUI.h"
 #import <AFNetworking/AFNetworking.h>
 #import <AFNetworking/UIImageView+AFNetworking.h>
+#import "Secrets.h"
 
 @implementation SoundCloudSearchViewController {
     BOOL _isPlaying;
     NSMutableArray *_playing;
+    Secrets *_secrets;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -24,6 +26,7 @@
     if (self) {
         _isPlaying = NO;
         _playing = [[NSMutableArray alloc] init];
+        _secrets = [[Secrets alloc] init];
         self.tracks = [[NSMutableArray alloc] init];
     }
     return self;
@@ -40,7 +43,7 @@
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     hud.color = [UIColor colorWithRed:1.0 green:102.0/255.0 blue:0.0 alpha:0.5];
-    NSDictionary *parameters = @{@"client_id": @"c76d3fe9bb6cfee88bb0d1598219eee4", @"q" : @"cello", @"order" : @"created_at"};
+    NSDictionary *parameters = @{@"client_id":_secrets.SCClientID, @"q" : @"cello", @"order" : @"created_at"};
     [manager GET:@"https://api.soundcloud.com/tracks.json" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
         [hud hide:YES];
         for(NSDictionary *dict in responseObject) {
@@ -116,7 +119,7 @@
 
         [SCRequest performMethod:SCRequestMethodGET
                       onResource:[NSURL URLWithString:streamURL]
-                 usingParameters:@{@"client_id": @"c76d3fe9bb6cfee88bb0d1598219eee4"}
+                 usingParameters:@{@"client_id": _secrets.SCClientID}
                      withAccount:nil
           sendingProgressHandler:nil
                  responseHandler:^(NSURLResponse *response, NSData *data, NSError *error) {

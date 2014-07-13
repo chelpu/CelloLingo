@@ -32,8 +32,6 @@
 		<string>odstemplik.otf</string>
 		<string>Roboto-Bold.ttf</string>
 	</array>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
