@@ -6,3 +6,6 @@ This is an application meant to help people learn more about playing cello. To g
     git clone git@github.com:chelpu/CelloLingo.git
     pod install
     
+## Usage
+To run the app, you'll need Parse and SoundCloud developer accounts
+
